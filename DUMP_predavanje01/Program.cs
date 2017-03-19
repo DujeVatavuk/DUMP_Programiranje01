@@ -21,7 +21,7 @@ namespace DUMP_predavanje01
 
             do
             {
-                Console.WriteLine("Koje ti je termine prijatelj ponudio za tulum Ivane (max 2 termina)?");
+                Console.WriteLine("Koje ti je termine prijatelj (ako ih imas) ponudio za tulum Ivane (max 2 termina)?");
                 X1 = int.Parse(Console.ReadLine());
                 X2 = int.Parse(Console.ReadLine());
             } while (!(X1 > 1 && X1 < 31 && X2 > 1 && X2 < 31));
