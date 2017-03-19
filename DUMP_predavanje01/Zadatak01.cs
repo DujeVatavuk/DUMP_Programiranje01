@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DUMP_predavanje01
 {
-    class Program
+    class Zadatak01
     {
         static void Main(string[] args)
         {
@@ -30,20 +30,20 @@ namespace DUMP_predavanje01
 
             if (X1 >= D1 && X1 <= D2)
             {
-                Console.WriteLine("Ivane, ne mozes ici na zabavu " + X1 + ". dana u mjesecu");
+                Console.WriteLine("Ivane, ne mozes ici na zabavu " + X1 + ". u mjesecu");
             }
             else
             {
-                Console.WriteLine("Ivane, mozes ici na zabavu " + X1 + ". dana u mjesecu");
+                Console.WriteLine("Ivane, mozes ici na zabavu " + X1 + ". u mjesecu");
             }
 
             if (X2 >= D1 && X2 <= D2)
             {
-                Console.WriteLine("Ivane, ne mozes ici na zabavu " + X2 + ". dana u mjesecu");
+                Console.WriteLine("Ivane, ne mozes ici na zabavu " + X2 + ". u mjesecu");
             }
             else
             {
-                Console.WriteLine("Ivane, mozes ici na zabavu " + X2 + ". dana u mjesecu");
+                Console.WriteLine("Ivane, mozes ici na zabavu " + X2 + ". u mjesecu");
             }
 
             Console.WriteLine();
